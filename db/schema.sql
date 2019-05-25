@@ -2,8 +2,8 @@ DROP DATABASE IF EXISTS burgers_db;
 CREATE DATABASE burgers_db;
 USE burgers_db;
 CREATE TABLE burgers (
-  id PRIMARY KEY AUTO_INCREMENT,
+  id INT PRIMARY KEY,
   burger_name VARCHAR(255),
-  devoured BOOLEAN,
-  PRIMARY KEY (id)
+  devoured BOOLEAN
 );
+
